@@ -21,35 +21,33 @@ body {
     margin: 0;
 }
 
- /* .container{
-    display: grid;
+ .container{
+    /* display: grid;
     grid-template-columns: 2, 2fr;
-    grid-template-columns: 2, 2fr; */
+    grid-template-rows: 2, 2fr;
     /* flex-direction: column;
     display: flex;
-    align-self: flex-end;
-} */
+    align-self: flex-end;*/
+ }
+
 
 .gridparent{
     display: grid;
     grid-template-columns: 2, 2fr;
     grid-template-rows: 2, 2fr;
 }
+
 img {
     max-width: 650px;
 }
 
 .plant {
-    /* display: flex;
-    justify-content: flex-start; */
     background-color: #d5d5d5;
     padding-top: 20px;
     min-height: 212.24px;
 }
 
 .pot {
-    /* display: flex;
-    justify-content: flex-start; */
     background-color: #d5d5d5;
     padding-bottom: 20px;
     min-height: 212.24px;
