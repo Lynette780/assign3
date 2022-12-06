@@ -13,6 +13,7 @@ h1 {
     font-weight: 300px;
     display: flex;
     justify-content: center;
+    margin:0px;
 }
 
 body {
@@ -22,39 +23,34 @@ body {
 
 .gridparent {
     display: grid;
-    grid-template-columns: 1, 1fr;
+    grid-template-columns: 1fr, 1fr;
+    background-color: #d5d5d5;
 }
 
 img {
-    max-width: 650px;
+    max-width: 550px;
 }
 
 .plant {
     display: flex;
     justify-content: flex-start;
-    background-color: #d5d5d5;
     padding-top: 20px;
     min-height: 212.24px;
 }
 
 .pot {
-    background-color: #d5d5d5;
-    padding-bottom: 20px;
     min-height: 212.24px;
 
 }
 
 .quote {
     display: flex;
-    justify-content: center;
-    background-color: #d5d5d5;
+    justify-content: flex-end;
     font-family: 'Dosis', sans-serif;
     font-size: xx-large;
     font-weight: bold;
     padding-bottom: 25px;
 }
-
-
 
 .check {
     fill: #555555;
