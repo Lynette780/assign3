@@ -11,8 +11,6 @@ h1 {
     font-family: 'Henny Penny', cursive;
     font-size: 80px;
     font-weight: 300px;
-    padding-top: 10px;
-    padding-bottom: 20px;
     display: flex;
     justify-content: center;
 }
