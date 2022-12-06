@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100vh;
+}
+
+h1 {
+    font-family: 'Henny Penny', cursive;
+    font-size: 80px;
+    font-weight: 300px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    margin: 0;
+}
+
+ /* .container{
+    display: grid;
+    grid-template-columns: 2, 2fr;
+    grid-template-columns: 2, 2fr; */
+    /* flex-direction: column;
+    display: flex;
+    align-self: flex-end;
+} */
+
+.gridparent{
+    display: grid;
+    grid-template-columns: 2, 2fr;
+    grid-template-rows: 2, 2fr;
+}
+img {
+    max-width: 650px;
+}
+
+.plant {
+    /* display: flex;
+    justify-content: flex-start; */
+    background-color: #d5d5d5;
+    padding-top: 20px;
+    min-height: 212.24px;
+}
+
+.pot {
+    /* display: flex;
+    justify-content: flex-start; */
+    background-color: #d5d5d5;
+    padding-bottom: 20px;
+    min-height: 212.24px;
+
+}
+
+.quote {
+    /* display: flex;
+    justify-content: flex-end; */
+    background-color: #d5d5d5;
+    font-family: 'Dosis', sans-serif;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.check {
+    fill: #555555;
+    max-height: 125px;
+    padding-right: 40px
+}
+
+.check :hover {
+    position: relative;
+    transition: all .3s;
+    fill: black;
+}
+
+footer {
+    display: flex;
+    justify-content: end;
+}
