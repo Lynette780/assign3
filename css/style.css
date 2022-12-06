@@ -21,20 +21,10 @@ body {
     margin: 0;
 }
 
- .container{
-    /* display: grid;
-    grid-template-columns: 2, 2fr;
-    grid-template-rows: 2, 2fr;
-    /* flex-direction: column;
-    display: flex;
-    align-self: flex-end;*/
- }
 
-
-.gridparent{
+.gridparent {
     display: grid;
-    grid-template-columns: 2, 2fr;
-    grid-template-rows: 2, 2fr;
+    grid-template-columns: 1, 1fr;
 }
 
 img {
@@ -42,6 +32,8 @@ img {
 }
 
 .plant {
+    display: flex;
+    justify-content: flex-start;
     background-color: #d5d5d5;
     padding-top: 20px;
     min-height: 212.24px;
@@ -56,12 +48,12 @@ img {
 
 .quote {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     background-color: #d5d5d5;
     font-family: 'Dosis', sans-serif;
     font-size: xx-large;
     font-weight: bold;
-    margin:0px;
+    padding-bottom: 25px;
 }
 
 
