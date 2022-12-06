@@ -63,7 +63,10 @@ img {
     font-family: 'Dosis', sans-serif;
     font-size: xx-large;
     font-weight: bold;
+    margin:0px;
 }
+
+
 
 .check {
     fill: #555555;

@@ -26,7 +26,7 @@ var quote9 = "“Choose to shine.”";
 var quote10 = "“Focus on the good.”";
 var quote11 = "“Enjoy the little things.”";
 var quote12 = "“Never stop dreaming.”";
-var quote13 = "Keep moving forward";
+var quote13 = "“Keep moving forward“";
 var quote14 = "“In teaching others we teach ourselves.”";
 var quote15 = "“Be Happy.”";
 var quote16 = "“Love the life you live, and live the life you love.”";
@@ -68,4 +68,8 @@ function quoteChange() {
     $(".quote").text(quote[randomNum]);
 }
 
+var sound = document.getElementById("sound");
 
+$(".check").on("click", function () {
+    sound.play();
+});
